@@ -51,14 +51,14 @@ public class CalculatorTest {
 
     @Test
     public void testEqual() {
-        boolean result = calculator.equalIntegers(20, 21);
+        boolean result = calculator.equalIntegers(20, 20);
 
         assertTrue(result);
     }
 
     @Test
     public void testSubstraction() {
-        int result = 10 - 3;
+        int result = calculator.subtraction(10, 3);
 
         assertTrue(result == 7);
     }
